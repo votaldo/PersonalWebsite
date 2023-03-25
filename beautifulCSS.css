@@ -1,0 +1,76 @@
+/* Styles for the body */
+:root {
+    --bg-color-light: linear-gradient(to bottom, #F9E7FE, #dafcfc);
+    --text-color-light: #000000;
+    --bg-color-dark: linear-gradient(to bottom, #333333, #000000);
+    --text-color-dark: #ffffff;
+  }
+/**  normal body
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    /** background-color: #fff; **/
+   /** background: linear-gradient(to bottom, #F9E7FE, #dafcfc); /** light pink-blue gradient
+    margin: 0;
+    padding: 20px;
+  }
+ **/
+
+
+ body {
+    background: var(--bg-color-light);
+    color: var(--text-color-light);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mode-toggle {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  #light-mode {
+    background-color: linear-gradient(to bottom, #F9E7FE, #dafcfc);
+    color: #000000;
+  }
+  
+  #dark-mode {
+    background-color: #2b2a2ae5;
+    color: #ffffff;
+  }
+  
+  /* Styles for the header */
+  header {
+    background-color: #1f1d1d;
+    padding: 10px;
+  }
+  
+  /* Styles for the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for links */
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  }
+  
