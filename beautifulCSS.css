@@ -1,48 +1,25 @@
 /* Styles for the body */
-:root {
-    --bg-color-light: linear-gradient(to bottom, #F9E7FE, #dafcfc);
-    --text-color-light: #000000;
-    --bg-color-dark: linear-gradient(to bottom, #333333, #000000);
-    --text-color-dark: #ffffff;
-  }
-/**  normal body
+
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: #333;
-    /** background-color: #fff; **/
-   /** background: linear-gradient(to bottom, #F9E7FE, #dafcfc); /** light pink-blue gradient
+    color: #cfcfcf;
+    background-color: #292828; 
+   /** background: linear-gradient(to bottom, #F9E7FE, #dafcfc); /** light pink-blue gradient**/
     margin: 0;
     padding: 20px;
   }
- **/
+ .Top_Buttons {
+  float: center;
+ }
 
-
- body {
-    background: var(--bg-color-light);
-    color: var(--text-color-light);
-  }
-  
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .mode-toggle {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  #light-mode {
-    background-color: linear-gradient(to bottom, #F9E7FE, #dafcfc);
-    color: #000000;
-  }
-  
-  #dark-mode {
-    background-color: #2b2a2ae5;
-    color: #ffffff;
-  }
+
   
   /* Styles for the header */
   header {
@@ -54,9 +31,13 @@ body {
   main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
   }
   
+
+  #My_title {
+    text-align: center;
+  }
   /* Styles for links */
   a {
     color: #0077cc;
