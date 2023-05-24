@@ -1,3 +1,6 @@
 # Personal Website
 
-This is a repo for my personal website, just wanted to have it online!
+Just a simple Website to showcase mainly my CV, and later show in depth:
+* Projects
+* Job Experience
+* Interests
