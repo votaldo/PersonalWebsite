@@ -1,6 +1,8 @@
 # Personal Website
 
-Just a simple Website to showcase mainly my CV, and later show in depth:
+Updated Website to showcase:
+* Personal Information
+* CV
 * Projects
 * Job Experience
 * Interests
