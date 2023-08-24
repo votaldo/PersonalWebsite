@@ -12,3 +12,5 @@ In this site you can expect to see, some personal information about **Marios Vot
 As well as a small description of projects hosted on this GitHub. </br>
 
 You can visit the website [here](https://mariosvottas.github.io/).
+
+`Note:` Don't forget to download the CV
